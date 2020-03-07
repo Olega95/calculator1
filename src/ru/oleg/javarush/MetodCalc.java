@@ -5,27 +5,27 @@ public class MetodCalc {
         Object res = 0;
         switch (op) {
             case "+":
-                if ((n1 + n2) % 1 == 0) {
+                if ((n1 + n2) % 1 == 0)
                     res = (int) (n1 + n2);
-                } else
+                else
                     res = (double) (n1 + n2);
                 break;
             case "-":
-                if ((n1 - n2) % 1 == 0) {
+                if ((n1 - n2) % 1 == 0)
                     res = (int) (n1 - n2);
-                } else
+                else
                     res = (double) (n1 - n2);
                 break;
             case "*":
-                if ((n1 * n2) % 1 == 0) {
+                if ((n1 * n2) % 1 == 0)
                     res = (int) (n1 * n2);
-                } else
+                else
                     res = (double) (n1 * n2);
                 break;
             case "/":
-                if ((n1 / n2) % 1 == 0) {
+                if ((n1 / n2) % 1 == 0)
                     res = (int) (n1 / n2);
-                } else
+                else
                     res = (double) (n1 / n2);
                 break;
             default:
